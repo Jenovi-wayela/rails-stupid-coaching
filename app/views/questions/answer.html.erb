@@ -1,6 +1,6 @@
-<h1>Ask your coach something</h1>
-<p>Question: <%= params[:question] %></p>
+<h1>Your question</h1>
+<p>You: <%= params[:question] %></p>
 <h1>Coach's Answer</h1>
-<p>Answer: <%= @answer %></p>
+<p>Coach: <%= @answer %></p>
 
 <%= link_to 'Ask another question', ask_path %>
